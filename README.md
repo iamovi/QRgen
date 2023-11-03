@@ -35,8 +35,10 @@ This project utilizes the `qrcode.min.js` library under the MIT License.
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Live Preview
+
 - Click on the image to see Live Preview >
-![preview img](https://github.com/iamovi/QRgen/blob/main/preview.png)
+[![Preview Img](https://github.com/iamovi/QRgen/blob/main/preview.png)](https://qrcode-gen-erator.netlify.app/)
+
 
 ## Author
 
