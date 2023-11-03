@@ -39,3 +39,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 `Maruf OVi`
 `< web dev. >`
 
+- Enjoy generating your own QR Code...
