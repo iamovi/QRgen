@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body {
+    background: linear-gradient(135deg, #3494E6, #EC6EAD);
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s infinite;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+/** animation for bg ***/
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.container {
+    opacity: 0.9;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.5s, box-shadow 0.5s;
+}
+
+
+h1 {
+    color: #ca2641;
+}
+
+/* Define the animation */
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Apply the animation to the h1 element */
+.ani-title {
+    animation: bounce 2s infinite;
+}
+
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ca2641;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#qrcode-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.fade-in {
+    opacity: 1;
+    visibility: visible;
+}
+#download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ca2641;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px 0;
+    transition: background-color 0.1s ease-in-out 0.2s;
+}
+
+#download-link:hover {
+    background-color: black;
+}
