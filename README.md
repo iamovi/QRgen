@@ -37,6 +37,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Live Preview
 
 - Click on the image to see Live Preview >
+
 [![Preview Img](https://github.com/iamovi/QRgen/blob/main/preview.png)](https://qrcode-gen-erator.netlify.app/)
 
 
