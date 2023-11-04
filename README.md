@@ -1,6 +1,6 @@
 # QRgen
 
-This is a simple QR code generator web application. It allows users to enter text or URLs and generate QR codes. The application also provides an option to download the QR code as an image.
+This is a simple, easy and fast QR code generator web application. It allows users to enter text or URLs and generate QR codes. The application also provides an option to download the QR code as an image.
 
 ## Features
 
