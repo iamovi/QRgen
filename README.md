@@ -6,6 +6,7 @@ This is a simple, easy and fast QR code generator web application. It allows use
 
 - Generate QR codes from text or URLs.
 - Download generated QR codes as image files (PNG).
+- Works offline for added convenience.
 
 ## Usage
 
