@@ -32,7 +32,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-[qrcode.min.js](https://github.com/davidshimjs/qrcodejs): Library used for QR code generation.
+[qrcode.min.js](https://github.com/davidshimjs/qrcodejs) : Library file used for QR code generation.
 
 
 # Author
