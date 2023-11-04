@@ -2,13 +2,22 @@ let qrcode;
 const qrCodeContainer = document.getElementById("qrcode-container");
 const downloadLink = document.getElementById("download-link");
 const generateButton = document.getElementById("generate-button");
+const inputElement = document.getElementById("qr-input");
 
 let isQRCodeGenerated = false;
 
 function generateOrClearQRCode() {
-    if (isQRCodeGenerated) {
+    const inputText = inputElement.value;
+
+    if (isQRCodeGenerated || inputText.trim() === "") {
         clearQRCode();
         isQRCodeGenerated = false;
+        if (inputText.trim() === "") {
+            inputElement.classList.add("shake"); // Add shake animation class
+            setTimeout(() => {
+                inputElement.classList.remove("shake"); // Remove the class after the animation
+            }, 500);
+        }
     } else {
         generateQRCode();
         isQRCodeGenerated = true;
