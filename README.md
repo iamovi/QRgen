@@ -18,15 +18,11 @@ This is a simple, easy and fast QR code generator web application. It allows use
 1. Clone the repository to your local machine.
 2. Simply open the index.html file in a web browser.
 
----
+## Live Preview
 
-### Libraries Used
+- Click on the image to see Live Preview >
 
-[qrcode.min.js](https://github.com/davidshimjs/qrcodejs): Library used for QR code generation.
-
-### Acknowledgments
-
-This project utilizes the `qrcode.min.js` library under the MIT License.
+[![Preview Img](https://github.com/iamovi/QRgen/blob/main/preview.png)](https://qrcode-gen-erator.netlify.app/)
 
 ---
 
@@ -34,16 +30,16 @@ This project utilizes the `qrcode.min.js` library under the MIT License.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Live Preview
+## Acknowledgments
 
-- Click on the image to see Live Preview >
-
-[![Preview Img](https://github.com/iamovi/QRgen/blob/main/preview.png)](https://qrcode-gen-erator.netlify.app/)
+[qrcode.min.js](https://github.com/davidshimjs/qrcodejs): Library used for QR code generation.
 
 
-## Author
+# Author
 
 `Maruf OVi`
 `< web dev. >`
+
+---
 
 - Enjoy generating your own QR Code...
